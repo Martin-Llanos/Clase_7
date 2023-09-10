@@ -1,12 +1,12 @@
 .on-success {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
+    top: 10;
+    left: 10;
+    width: 120vw;
+    height: 120vh;
     background: rgba(0, 0, 0, 0.5);
     overflow: hidden;
-    z-index: 98;
+    z-index: 95;
 }
 
 .on-success div {
@@ -16,8 +16,8 @@
     transform: translate(-50%, -50%);
     width: 90vw;
     height: 90vh;
-    max-width: 600px;
-    max-height: 500px;
+    max-width: 700px;
+    max-height: 600px;
     border-radius: 2em;
     text-align: center;
     background: #333333;
@@ -25,7 +25,7 @@
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    z-index: 99;
+    z-index: 95;
 }
 
 .on-success div h1 {
