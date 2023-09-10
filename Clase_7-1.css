@@ -4,7 +4,7 @@
     left: 10;
     width: 120vw;
     height: 120vh;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgb(0, 0, 255);
     overflow: hidden;
     z-index: 95;
 }
@@ -20,7 +20,7 @@
     max-height: 600px;
     border-radius: 2em;
     text-align: center;
-    background: #333333;
+    background: #9ACD32;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -46,10 +46,10 @@
 }
 
 form {
-    background-color: #efefef;
+    background-color: #DAF7A6 ;
     width: calc(100% - 10em);
-    max-width: 640px;
-    min-height: 500px;
+    max-width: 650px;
+    min-height: 600px;
     padding: 3em;
     flex: 0;
     text-align: center;
@@ -63,26 +63,26 @@ textarea {
     font-weight: 300;
     font-size: 16px;
     background: inherit;
-    border: 2px solid black;
+    border: 2px navy;
 }
 
 input {
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px navy;
     padding: 0.5em;
 }
 
 input[type='file'] {
     width: 60%;
     border: none;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", serif;
     font-weight: 400;
     font-size: 16px;
     padding: 1em 2em;
 }
 
 button {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", serif;
     font-weight: 700;
     font-size: 18px;
     padding: 1em 2em;
@@ -97,8 +97,8 @@ button {
 }
 
 button:hover {
-    background: black;
-    color: #20D7C0;
+    background: navy;
+    color: 	#000080;
 }
 
 @media all and (max-width: 640px) {
