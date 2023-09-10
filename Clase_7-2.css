@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
     box-sizing: border-box;
     min-height: 200vh;
     display: flex;
@@ -28,8 +28,8 @@ body {
     width: 100%;
   }
   header ul {
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
     list-style: none;
     width: 100%;
     min-height: 80px;
