@@ -2,27 +2,27 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    min-height: 100vh;
+    min-height: 200vh;
     display: flex;
     flex-flow: column wrap;
     background: white;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
+    font-family: "Montserrat", serif;
+    font-weight: 400;
     font-size: 16px;
     line-height: 32px;
   }
   a {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", serif;
     text-decoration: none;
     color: inherit;
     white-space: nowrap;
-    padding: 10px 15px;
+    padding: 15px 20px;
   }
   header, footer {
     box-sizing: border-box;
     flex: 0 1 auto;
-    background-color: black;
-    color: white;
+    background-color: blue;
+    color: orange;
   }
   header{
     width: 100%;
@@ -52,9 +52,9 @@ body {
     background: black;
   }
   header a:hover {
-    color: black;
-    border: 2px solid #CFBD6F;
-    background: #CFBD6F;
+    color: navy;
+    border: 2px solid #00CF00;
+    background: #000080;
     transition: all 0.3s ease-in-out;
   }
   section {
@@ -78,7 +78,7 @@ body {
   }
   
   footer{
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", serif;
     text-decoration: none;
     font-size: 0.9rem;
     padding: 0 30px;
@@ -98,7 +98,7 @@ body {
     color: #CFBD6F;
   }
   footer a:hover {
-    color: white;
+    color: #6B8E23;
   }
   
   @media all and (max-width: 640px) {
