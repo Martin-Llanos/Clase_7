@@ -1,9 +1,9 @@
 .wish-list-container{
     width: calc(100% - 10em);
-      max-width: 640px;
-    min-height: 500px;
+      max-width: 720px;
+    min-height: 600px;
       padding: 3em;
       margin: 0 auto;
-      background-color: #efefef;
+      background-color: #07f844ec;
       z-index: 2;
   }
