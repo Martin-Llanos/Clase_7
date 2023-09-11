@@ -1,10 +1,10 @@
 .gift-section {
     width: calc(100% - 10em);
-      max-width: 640px;
-    min-height: 500px;
+      max-width: 720px;
+    min-height: 600px;
       padding: 3em;
     margin: 0 auto;
-      background-color: #efefef;
+      background-color: #cococo;
     text-align: center;
       z-index: 2;
   }
@@ -12,6 +12,6 @@
     width: 100%;
   }
   .santa-gift-text {
-      color: red;
+      color: purple;
       font-style: italic;
   }
