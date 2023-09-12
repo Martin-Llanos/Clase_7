@@ -29,4 +29,4 @@ function probarvalidarDescripcionRegalo() {
 }
 probarValidarNombre('Andres');
 probarValidarCiudad('Rosario');
-probarvalidarDescripcionRegalo(Auto rojo a control remoto);
+probarvalidarDescripcionRegalo('Auto rojo a control remoto');
