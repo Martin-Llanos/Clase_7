@@ -1,6 +1,6 @@
 function probarValidarNombre() {
     console.assert(
-        validarNombre('') === 'Este campo debe tener al menos un carácter',
+        validarNombre('Hola Santa: Mi nonbre es Andres') === 'Este campo debe tener al menos un carácter',
         'Validar nombre no validó que el nombre no sea vacío'
     );
 
@@ -14,19 +14,19 @@ function probarValidarNombre() {
 
 function probarValidarCiudad() {
     console.assert(
-        validarCiudad('') === 'Este campo no puede estar vacío',
+        validarCiudad('Soy de la ciudad de Rosario') === 'Este campo no puede estar vacío',
         'Validar ciudad no valido que el campo estuviera vacio',
     );
 }
 
 function probarvalidarDescripcionRegalo() {
-    console.assert(validarDescripcionRegalo('') === 'Este campo no puede estar vacio',
+    console.assert(validarDescripcionRegalo('este año quiero un auto a control remoto de color rojo que se le abren las puertas y se le pliega el techo') === 'Este campo no puede estar vacio',
         'Validar descripcion regalo no valido si estuviera vacio',
     );
 
     console.assert(validarDescripcionRegalo('asdf')==='La descripcion debe ser mayor o igual a 5 caracteres y menor a 100 caracteres.',
         'Validar descripcion regalo no valido que sea menor a 5 caracteres y mayor a 100.');
 }
-probarValidarNombre();
-probarValidarCiudad();
-probarvalidarDescripcionRegalo();
+probarValidarNombre('Andres');
+probarValidarCiudad('Rosario');
+probarvalidarDescripcionRegalo(Auto rojo a control remoto);
