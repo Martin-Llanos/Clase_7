@@ -29,7 +29,7 @@
 }
 
 .on-success div h1 {
-    color: white;
+    color: lime;
 }
 
 .error {
@@ -38,7 +38,7 @@
 
 .errorsBlock {
     font-size: 14px;
-    color: red;
+    color: navy;
 }
 
 .hiddenWindow {
@@ -91,7 +91,7 @@ button {
     border: none;
     border-radius: 2em;
     background: #20D7C0;
-    color: white;
+    color: lime;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
