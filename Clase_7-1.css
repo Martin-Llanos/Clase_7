@@ -59,7 +59,7 @@ form {
 input,
 select,
 textarea {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Rodriguez", sans-serif;
     font-weight: 300;
     font-size: 16px;
     background: inherit;
@@ -75,14 +75,14 @@ input {
 input[type='file'] {
     width: 60%;
     border: none;
-    font-family: "Montserrat", serif;
+    font-family: "Rodriguez", serif;
     font-weight: 400;
     font-size: 16px;
     padding: 1em 2em;
 }
 
 button {
-    font-family: "Montserrat", serif;
+    font-family: "Rodriguez", serif;
     font-weight: 700;
     font-size: 18px;
     padding: 1em 2em;
