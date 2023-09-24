@@ -20,7 +20,7 @@
     max-height: 600px;
     border-radius: 2em;
     text-align: center;
-    background: #9ACD32;
+    background: #324ecd;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -29,11 +29,11 @@
 }
 
 .on-success div h1 {
-    color: lime;
+    color: silver;
 }
 
 .error {
-    border: 2px solid red;
+    border: 2px solid lightgray;
 }
 
 .errorsBlock {
@@ -59,7 +59,7 @@ form {
 input,
 select,
 textarea {
-    font-family: "Rodriguez", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 300;
     font-size: 16px;
     background: inherit;
@@ -75,14 +75,14 @@ input {
 input[type='file'] {
     width: 60%;
     border: none;
-    font-family: "Rodriguez", serif;
+    font-family: "Montserrat", serif;
     font-weight: 400;
     font-size: 16px;
     padding: 1em 2em;
 }
 
 button {
-    font-family: "Rodriguez", serif;
+    font-family: "Montserrat", serif;
     font-weight: 700;
     font-size: 18px;
     padding: 1em 2em;
