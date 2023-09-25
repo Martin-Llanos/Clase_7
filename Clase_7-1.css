@@ -46,7 +46,7 @@
 }
 
 form {
-    background-color: #DAF7A6 ;
+    background-color: #daf7a6 ;
     width: calc(100% - 10em);
     max-width: 650px;
     min-height: 600px;
@@ -90,7 +90,7 @@ button {
     text-transform: uppercase;
     border: none;
     border-radius: 2em;
-    background: #20D7C0;
+    background: #20d7c0;
     color: lime;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
