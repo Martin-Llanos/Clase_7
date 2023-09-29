@@ -2,7 +2,7 @@
     position: absolute;
     top: 10;
     left: 10;
-    width: 120vw;
+    width: 80vw;
     height: 120vh;
     background: rgb(0, 0, 255);
     overflow: hidden;
@@ -15,7 +15,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90vw;
-    height: 90vh;
+    height: 150vh;
     max-width: 700px;
     max-height: 600px;
     border-radius: 2em;
@@ -48,8 +48,8 @@
 form {
     background-color: #daf7a6 ;
     width: calc(100% - 10em);
-    max-width: 650px;
-    min-height: 600px;
+    max-width: 60px;
+    min-height: 720px;
     padding: 3em;
     flex: 0;
     text-align: center;
