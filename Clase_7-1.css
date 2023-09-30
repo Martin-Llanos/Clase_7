@@ -4,7 +4,7 @@
     left: 10;
     width: 80vw;
     height: 120vh;
-    background: rgb(0, 0, 255);
+    background: rgb(205,127, 50);
     overflow: hidden;
     z-index: 95;
 }
@@ -20,7 +20,7 @@
     max-height: 600px;
     border-radius: 2em;
     text-align: center;
-    background: #324acd;
+    background: #328fcd;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -29,16 +29,16 @@
 }
 
 .on-success div h1 {
-    color: silver;
+    color: ivory;
 }
 
 .error {
-    border: 2px solid lightgray;
+    border: 2px solid indianred;
 }
 
 .errorsBlock {
     font-size: 14px;
-    color: navy;
+    color: palegoldenrod;
 }
 
 .hiddenWindow {
@@ -46,7 +46,7 @@
 }
 
 form {
-    background-color: #daf7a6 ;
+    background-color: #11db1b77 ;
     width: calc(100% - 10em);
     max-width: 60px;
     min-height: 720px;
@@ -63,12 +63,12 @@ textarea {
     font-weight: 300;
     font-size: 16px;
     background: inherit;
-    border: 2px navy;
+    border: 2px gold;
 }
 
 input {
     border: none;
-    border-bottom: 2px navy;
+    border-bottom: 2px deepskyblue;
     padding: 0.5em;
 }
 
@@ -91,14 +91,14 @@ button {
     border: none;
     border-radius: 2em;
     background: #20d7c0;
-    color: lime;
+    color: crimson;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
 
 button:hover {
-    background: navy;
-    color: 	#000080;
+    background: orange;
+    color: 	#328fcd;
 }
 
 @media all and (max-width: 640px) {
