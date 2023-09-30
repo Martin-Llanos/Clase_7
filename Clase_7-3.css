@@ -1,17 +1,17 @@
 .gift-section {
-    width: calc(100% - 10em);
-      max-width: 720px;
-    min-height: 600px;
-      padding: 3em;
-    margin: 0 auto;
-      background-color: #07f844ec;
-    text-align: center;
-      z-index: 2;
-  }
-  .santa-gift {
-    width: 100%;
-  }
-  .santa-gift-text {
-      color: purple;
-      font-style: bold;
-  }
+  width: calc(100% - 10em);
+    max-width: 720px;
+  min-height: 600px;
+    padding: 3em;
+  margin: 0 auto;
+    background-color: #07d4f8ec;
+  text-align: center;
+    z-index: 2;
+}
+.santa-gift {
+  width: 100%;
+}
+.santa-gift-text {
+    color: orchid;
+    font-style: bold;
+}
