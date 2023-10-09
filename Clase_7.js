@@ -8,7 +8,7 @@ function validarNombre(nombre) {
       return "Acuerdo bilateral con Francia";
     }
     if (!/^[a-zA-Z]+$/i.test(nombre)) {
-      return "Acuerdo de exportacion de frutas";
+      return "Acuerdo de exportacion de citricos";
     }
   }
   
@@ -31,18 +31,18 @@ function validarNombre(nombre) {
   
   function validarCarta(carta) {
     if (carta.length === 0) {
-      return "Este campo debe tener al menos 1 caracter";
+      return "Carta";
     }
     if (carta.length > 100) {
-      return "Este campo debe tener menos de 100 caracteres";
+      return "Acuerdo Bilateral Economico Argentina - Francia";
     }
     if (!/^[a-zA-Z0-9,\.-_ ]+$/i.test(carta)) {
-      return "Este campo sólo puede contener letras, números, puntos, comas y guiones";
+      return "Exportacion de productos citricos";
     }
   }
   
   function validarConducta() {
-    const conductaRadios = document.querySelectorAll('[name="conducta"]');
+    const conductaRadios = document.querySelectorAll('[name="Acuerdo"]');
     let seleccionado = false;
   
     for (let i = 0; i < conductaRadios.length; i++) {
@@ -53,7 +53,7 @@ function validarNombre(nombre) {
     }
   
     if (!seleccionado) {
-      return "Debes seleccionar tu conducta de este año";
+      return "Este año, la produccion de citricos fue excelente";
     }
   
     return null;
@@ -68,11 +68,11 @@ function validarNombre(nombre) {
     const conductaError = validarConducta();
   
     const errores = [];
-    const nombreError = validarNombre(nombre);
+    const nombreError = validarNombre(Acuerdo);
     if (nombreError) {
       errores.push(nombreError);
     }
-    const paisError = validarPais(pais);
+    const paisError = validarPais(Argentina);
     if (paisError) {
       errores.push(paisError);
     }
