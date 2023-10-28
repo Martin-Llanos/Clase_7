@@ -4,7 +4,7 @@
     left: 10;
     width: 80vw;
     height: 120vh;
-    background: rgb(205,127, 50);
+    background: rgb(255,165, 0);
     overflow: hidden;
     z-index: 95;
 }
@@ -20,7 +20,7 @@
     max-height: 600px;
     border-radius: 2em;
     text-align: center;
-    background: #328fcd;
+    background: #3c32cd;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -29,16 +29,16 @@
 }
 
 .on-success div h1 {
-    color: ivory;
+    color: white;
 }
 
 .error {
-    border: 2px solid indianred;
+    border: 2px red;
 }
 
 .errorsBlock {
     font-size: 14px;
-    color: palegoldenrod;
+    color: gray;
 }
 
 .hiddenWindow {
@@ -63,12 +63,12 @@ textarea {
     font-weight: 300;
     font-size: 16px;
     background: inherit;
-    border: 2px gold;
+    border: 2px yellow;
 }
 
 input {
     border: none;
-    border-bottom: 2px deepskyblue;
+    border-bottom: 2px blue;
     padding: 0.5em;
 }
 
